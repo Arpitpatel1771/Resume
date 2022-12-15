@@ -1,0 +1,147 @@
+/* boilerplate */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    color: rgb(43, 43, 43);
+}
+
+body {
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    background-color: slategrey;
+}
+
+.main {
+    width: 70%;
+    aspect-ratio: 0.707;
+    background-color: white;
+    box-shadow: 0px 10px 50px -30px rgba(0, 0, 0, 0.514);
+}
+
+div {
+    /* border: 1px solid red; */
+}
+table, tr, td, th{
+    /* border: 1px solid red; */
+}
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
+/* content css  */
+
+.main {
+    padding: 40px;
+    padding-top: 50px;
+}
+
+div.center {
+    display: flex;
+    place-items: center;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    /* color: rgb(66, 66, 66); */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    padding-top: 10px;
+    place-items: center;
+}
+.icon-hyperlinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img.icon {
+    width: 45px;
+    aspect-ratio: 1;
+    padding: 5px;
+}
+
+img.phone {
+    width: 30px;
+}
+
+img.email {
+    width: 40px;
+}
+
+img.linkedin {
+    width: 35px;
+}
+
+span.emphasised {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+    text-decoration: none; /* no underline */
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+
+.content {
+    display: flex;
+    gap: 5px;
+}
+
+.tab {
+    flex-grow: 1;
+    word-wrap: break-word;
+    padding-left: 10px;
+    border-left: 5px solid gray;
+    background-color: rgb(233, 233, 233);
+}
+
+i {
+    font-size: 18px;
+}
+
+.section {
+    font-size: 18px;
+}
+
+.text {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+span.subheading {
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+
+table{
+    border-spacing: 7px;
+}
+
+th, td{
+    padding: 0px;
+    font-size: 20px;
+}
+
+th{
+    border-right: 5px solid rgb(130, 130, 130);
+    background-color: rgb(233, 233, 233);
+    padding-left: 10px;
+    padding-right: 10px;
+}
