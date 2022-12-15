@@ -9,17 +9,17 @@
 }
 
 body {
-    padding: 30px;
+    /* padding: 30px; */
     display: grid;
     place-items: center;
-    background-color: slategrey;
+    /* background-color: slategrey; */
 }
 
 .main {
-    width: 70%;
+    /* width: 70%; */
     aspect-ratio: 0.707;
     background-color: white;
-    box-shadow: 0px 10px 50px -30px rgba(0, 0, 0, 0.514);
+    /* box-shadow: 0px 10px 50px -30px rgba(0, 0, 0, 0.514); */
 }
 
 div {
@@ -33,9 +33,20 @@ table, tr, td, th{
 
 /* content css  */
 
+:root{
+    /* --font-size-1: 48px;
+    --font-size-2: 22px;
+    --font-size-3: 20px;
+    --font-size-4: 18px; */
+    --font-size-1: 24px;
+    --font-size-2: 18px;
+    --font-size-3: 14px;
+    --font-size-4: 12px;
+}
+
 .main {
-    padding: 40px;
-    padding-top: 50px;
+    padding: 20px;
+    /* padding-top: 50px; */
 }
 
 div.center {
@@ -43,7 +54,8 @@ div.center {
     place-items: center;
 }
 h1 {
-    font-size: 48px;
+    /* font-size: var(--font-size-1); */
+    font-size: 36px;
     font-weight: 600;
     /* color: rgb(66, 66, 66); */
 }
@@ -64,27 +76,27 @@ h1 {
 }
 
 img.icon {
-    width: 45px;
+    width: 25px;
     aspect-ratio: 1;
     padding: 5px;
 }
 
 img.phone {
-    width: 30px;
+    width: 25px;
 }
 
 img.email {
-    width: 40px;
+    width: 30px;
 }
 
 img.linkedin {
-    width: 35px;
+    width: 25px;
     position: relative;
     top: -4px;
 }
 
 span.emphasised {
-    font-size: 20px;
+    font-size: var(--font-size-3);
     font-weight: 500;
 }
 
@@ -94,7 +106,7 @@ a {
 }
 
 .title {
-    font-size: 22px;
+    font-size: var(--font-size-2);
     font-weight: 500;
     border-bottom: 2px solid black;
 }
@@ -113,22 +125,22 @@ a {
 }
 
 i {
-    font-size: 18px;
+    font-size: var(--font-size-4);
 }
 
 .section {
-    font-size: 18px;
+    font-size: var(--font-size-4);
 }
 
 .text {
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 20px;
+    font-size: var(--font-size-3);
 }
 
 span.subheading {
     font-style: italic;
-    font-size: 20px;
+    font-size: var(--font-size-3);
     text-decoration: wavy;
 }
 
@@ -138,7 +150,7 @@ table{
 
 th, td{
     padding: 0px;
-    font-size: 20px;
+    font-size: var(--font-size-3);
 }
 
 th{
