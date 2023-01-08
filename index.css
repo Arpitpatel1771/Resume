@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
     color: rgb(43, 43, 43);
+    /* line-height: 1.25; */
 }
 
 body {
@@ -16,7 +17,8 @@ body {
 }
 
 .main {
-    /* width: 70%; */
+    /* width: 50%; */
+    /* padding: 20px; */
     aspect-ratio: 0.707;
     background-color: white;
     /* box-shadow: 0px 10px 50px -30px rgba(0, 0, 0, 0.514); */
@@ -38,15 +40,10 @@ table, tr, td, th{
     --font-size-2: 22px;
     --font-size-3: 20px;
     --font-size-4: 18px; */
-    --font-size-1: 24px;
-    --font-size-2: 18px;
-    --font-size-3: 14px;
-    --font-size-4: 12px;
-}
-
-.main {
-    padding: 20px;
-    /* padding-top: 50px; */
+    --font-size-1: 26px;
+    --font-size-2: 20px;
+    --font-size-3: 16px;
+    --font-size-4: 14px;
 }
 
 div.center {
@@ -57,16 +54,23 @@ h1 {
     /* font-size: var(--font-size-1); */
     font-size: 36px;
     font-weight: 600;
-    /* color: rgb(66, 66, 66); */
+    color: #4077C1;
 }
 
+h2 {
+    color: #294973;   
+}
+
+h3 {
+    color: #294973;
+}
 .header {
     display: flex;
     justify-content: space-between;
 }
 
 .contact {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     place-items: center;
 }
 .icon-hyperlinks {
@@ -78,7 +82,8 @@ h1 {
 img.icon {
     width: 25px;
     aspect-ratio: 1;
-    padding: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 img.phone {
@@ -90,17 +95,26 @@ img.email {
 }
 
 img.linkedin {
-    width: 25px;
+    width: 30px;
     position: relative;
-    top: -4px;
+    top: 0px;
 }
-
+img.github {
+    width: 30px;
+}
+img.hackerrank {
+    width: 30px;
+}
+img.leetcode {
+    width: 30px;
+}
 span.emphasised {
     font-size: var(--font-size-3);
     font-weight: 500;
 }
 
 a {
+    display: block;
     color: inherit;
     text-decoration: underline; /* no underline */
 }
@@ -108,7 +122,10 @@ a {
 .title {
     font-size: var(--font-size-2);
     font-weight: 500;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #102a4d;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:#102a4d;
 }
 
 .content {
@@ -130,18 +147,30 @@ i {
 
 .section {
     font-size: var(--font-size-4);
+    position: relative;
 }
 
 .text {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
     font-size: var(--font-size-3);
 }
 
-span.subheading {
+div.subheading {
     font-style: italic;
     font-size: var(--font-size-3);
     text-decoration: wavy;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+}
+
+div.time{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: var(--font-size-3);
+    font-weight: 600;
 }
 
 table{
@@ -154,8 +183,43 @@ th, td{
 }
 
 th{
-    border-right: 5px solid rgb(130, 130, 130);
-    background-color: rgb(233, 233, 233);
-    padding-left: 10px;
-    padding-right: 10px;
+    border-right: 5px solid rgba(143, 156, 197, 0.783);
+    background-color: rgb(205, 214, 225);
+    padding: 2px 10px 2px 10px;
+}
+
+div.text-subsection{
+    padding: 5px;
+}
+div.text-content{
+    /* padding-left: 15px; */
+    /* padding-top: 5px; */
+}
+.text-subsection-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+ol, ul {
+    margin-left: 30px;
+}
+
+#projects > .text-title{
+    font-size:  18px;
+}
+.text-techstack {
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+}
+
+img.inline.link{
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+a.custom-link{
+    display: inline;
+}
+.text-techstack{
+    color: #112846;
 }
